@@ -1,0 +1,18 @@
+@URL=http://localhost:3000/users
+
+### Obter todos
+GET {{ URL  }}
+
+### Criar usuário
+POST {{ URL }}
+Content-Type: application/json
+
+{
+    "name": "bonito",
+    "email": "bonito@email.com",
+    "password": "bonito123",
+    "phone": "707070"
+}
+
+### Obter por id
+GET {{ URL  }}/651d9d462f4d904a0057c91e

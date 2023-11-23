@@ -1,0 +1,21 @@
+@URL=http://localhost:3000/evaluations
+
+### Obter todos
+GET {{ URL  }}
+
+### Criar usuário
+POST {{ URL }}
+Content-Type: application/json
+
+{
+    "personId": "asd",
+    "pacoteId": "qwe",
+    "score": "10",
+    "comment": "escorregadio"
+}
+
+### Obter por id
+GET {{ URL  }}/655e68ad5eb6cfb0af361a00
+
+### Obter por id de pacote
+GET {{ URL  }}/pacoteId/qwe

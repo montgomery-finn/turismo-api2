@@ -8,7 +8,7 @@ POST {{ URL }}
 Content-Type: application/json
 
 {
-    "name": "bonito",
+    "name": "É o meu mesmo",
     "email": "bonito@email.com",
     "password": "bonito123",
     "phone": "707070"
